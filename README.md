@@ -6,6 +6,13 @@
 
 This project was built in 5 days as an assignment by an organization (name kept anonymous).
 
+## Table of Contents
+
+- [Backend](#backend)
+- [Frontend](#frontend)
+- [Folder Structure](#folder-structure)
+- [Screenshots](#screenshots)
+
 ## Backend
 
 The backend of this project utilizes Mongoose and Express.js. It incorporates classified JSON data provided by the organization. Mongoose models were created to structure the data, which was then uploaded to a MongoDB database. Various RESTful API endpoints were developed to retrieve data from the backend.
