@@ -1,0 +1,44 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: #003366;
+  color: #cccccc;
+  padding: 1vmin 0;
+  align-items: flex-end;
+  box-shadow: 0 0 10px #003366;
+  z-index: 10;
+}
+
+.header ion-icon {
+  font-size: 4rem;
+  margin-right: 1vmin;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.title sub {
+  align-self: flex-end;
+  font-size: 90%;
+}
+
+@media (orientation: portrait) {
+  .header ion-icon {
+    font-size: 3.5rem;
+  }
+  .header h1 {
+    font-size: 1.5rem;
+  }
+}

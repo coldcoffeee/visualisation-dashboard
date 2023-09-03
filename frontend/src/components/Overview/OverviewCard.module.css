@@ -1,0 +1,73 @@
+.overviewHeading {
+  font-weight: 300;
+  font-size: 2rem;
+  padding-bottom: 0.5vmin;
+  font-family: "Oswald", sans-serif;
+}
+
+.overviewBody {
+  display: flex;
+  justify-content: space-between;
+  /* border-top: 1px solid #003366; */
+  padding: 1vmin;
+  width: 100%;
+  background-color: #fff;
+  color: #003366;
+  border-radius: 5px;
+  box-shadow: inset 0 0 10px rgb(141, 215, 68);
+  height: 100%;
+}
+
+.overviewContent {
+  width: 50%;
+  padding: 0.5vmin 1vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+li {
+  margin: 2vmin;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+li ion-icon {
+  color: rgb(141, 215, 68);
+  /* align-self: flex-start; */
+  font-size: 4rem;
+}
+
+.quantity {
+  color: #003366;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+@media (orientation: portrait) {
+  .overviewHeading {
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+  .overviewContent {
+    font-size: 0.7rem;
+  }
+  .quantity {
+    font-size: 1rem;
+  }
+  li ion-icon {
+    font-size: 1.5rem;
+  }
+}

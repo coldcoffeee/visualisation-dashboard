@@ -1,0 +1,17 @@
+.overviewContainer {
+  border-radius: 10px;
+  box-shadow: 0 0 10px #003366;
+  overflow: hidden;
+  margin: 3vmax auto;
+  background-color: #003366;
+  color: #cccccc;
+  display: flex;
+  flex-direction: column;
+  font-family: "Rubik", sans-serif;
+  padding: 1vmin;
+  /* position: absolute; */
+  /* position: fixed; */
+  /* top: 50vh; */
+  /* left: 50vw; */
+  /* transform: translate(-50%, -45%); */
+}
