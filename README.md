@@ -10,8 +10,8 @@ This project was built in 5 days as an assignment by an organization (name kept 
 
 - [Backend](#backend)
 - [Frontend](#frontend)
-- [Folder Structure](#folder-structure)
 - [Screenshots](#screenshots)
+- [Folder Structure](#folder-structure)
 
 ## Backend
 
@@ -20,6 +20,28 @@ The backend of this project utilizes Mongoose and Express.js. It incorporates cl
 ## Frontend
 
 The frontend of this project was built using React.js. Notably, all the styling is implemented using pure CSS, with no external libraries used. The dashboard is fully responsive and features the following types of graphs: Bar, Line, Pie, and Scatter plot. These graphs were created using D3.js and SVG. Data is passed between components using the Context API.
+
+## Screenshots
+
+### Overview
+
+![Overview](https://github.com/coldcoffeee/visualisation-dashboard/assets/68056738/9be52d58-c5b1-438a-8171-a2f13ebdcd2e)
+
+### Bar Graph
+
+![Bar Graph](https://github.com/coldcoffeee/visualisation-dashboard/assets/68056738/c332e9d2-4068-4041-8a70-6c8324c1e403)
+
+### Line Graph
+
+![Line Graph](https://github.com/coldcoffeee/visualisation-dashboard/assets/68056738/f3ecdba3-700a-41fa-9561-de4e4e08b8bb)
+
+### Pie Chart
+
+![Pie Chart](https://github.com/coldcoffeee/visualisation-dashboard/assets/68056738/317e62ca-8e40-42ae-8653-7f684fb4d341)
+
+### Scatter Plot
+
+![Scatter Plot](https://github.com/coldcoffeee/visualisation-dashboard/assets/68056738/839bd19c-87cc-415a-a3a7-a0b3ec353eda)
 
 ## Folder Structure
 
@@ -95,25 +117,3 @@ The project is well-organized, following MVC (Model-View-Controller) norms. Here
 │ ├── index.css  
 │ └── index.js  
 └── README.md
-
-## Screenshots
-
-### Overview
-
-![Overview](https://github.com/coldcoffeee/visualisation-dashboard/assets/68056738/9be52d58-c5b1-438a-8171-a2f13ebdcd2e)
-
-### Bar Graph
-
-![Bar Graph](https://github.com/coldcoffeee/visualisation-dashboard/assets/68056738/c332e9d2-4068-4041-8a70-6c8324c1e403)
-
-### Line Graph
-
-![Line Graph](https://github.com/coldcoffeee/visualisation-dashboard/assets/68056738/f3ecdba3-700a-41fa-9561-de4e4e08b8bb)
-
-### Pie Chart
-
-![Pie Chart](https://github.com/coldcoffeee/visualisation-dashboard/assets/68056738/317e62ca-8e40-42ae-8653-7f684fb4d341)
-
-### Scatter Plot
-
-![Scatter Plot](https://github.com/coldcoffeee/visualisation-dashboard/assets/68056738/839bd19c-87cc-415a-a3a7-a0b3ec353eda)
